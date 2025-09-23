@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yang Zhang - Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">Yang Zhang</a>
+      <div class="links">
+        <a href="index.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a class="active" href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Contact (Placeholder)</h1>
+    <p>You can reach me at:</p>
+    <ul class="contact">
+      <li><strong>Email:</strong> yzhang77@gmu.edu</li>
+      <li><strong>GitHub:</strong> <a href="#">your-github-username</a></li>
+      <li><strong>LinkedIn:</strong> <a href="#">your-linkedin-link</a></li>
+    </ul>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Yang Zhang</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
