@@ -39,7 +39,7 @@ labels = c("No tutoring", "Tutoring")
 
 **Methodology: Independent Samples t-test**
 
-To find out whether tutoring is linked to better academic performance, we compare the average GPA of students who attended tutoring with those who did not.
+To find out whether tutoring is linked to better academic performance, I compare the average GPA of students who attended tutoring with those who did not.
 Because GPA is numerical and the two groups are independent, an independent-samples t-test is an appropriate method.
 The test checks whether the difference in mean GPA between the tutoring and non-tutoring groups is statistically meaningful.
 
