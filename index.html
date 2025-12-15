@@ -1,91 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>STAT 515 Final Project – Preston Moskowitz &amp; Yang Zhang</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>STAT 515 Final Project – Preston Moskowitz & Yang Zhang</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-            background-color: #f5f5f5;
-        }
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-        header {
-            background-color: #222;
-            color: #fff;
-            padding: 16px 24px;
-        }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(135deg, #1f2933, #111827);
+      color: #111827;
+    }
 
-        header h1 {
-            margin: 0;
-            font-size: 22px;
-        }
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
 
-        header p {
-            margin: 4px 0 0;
-            font-size: 14px;
-            opacity: 0.85;
-        }
+    header {
+      padding: 20px 24px 10px;
+      color: #e5e7eb;
+    }
 
-        nav {
-            background-color: #333;
-            padding: 8px 24px;
-        }
+    .title {
+      font-size: 26px;
+      font-weight: 600;
+      margin: 0 0 6px;
+    }
 
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin-right: 20px;
-            font-size: 15px;
-        }
+    .subtitle {
+      margin: 0;
+      font-size: 14px;
+      opacity: 0.9;
+    }
 
-        nav a:hover {
-            text-decoration: underline;
-        }
+    nav {
+      padding: 0 24px 16px;
+    }
 
-        .frame-container {
-            height: calc(100vh - 120px);
-        }
+    .nav-bar {
+      display: inline-flex;
+      gap: 12px;
+      background: rgba(15, 23, 42, 0.9);
+      padding: 6px 10px;
+      border-radius: 999px;
+      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.7);
+      border: 1px solid rgba(148, 163, 184, 0.4);
+    }
 
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-            background-color: #fff;
-        }
+    .nav-link {
+      color: #e5e7eb;
+      text-decoration: none;
+      font-size: 14px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      transition: background 0.15s ease, color 0.15s ease;
+    }
 
-        .fallback-link {
-            padding: 16px 24px;
-            font-size: 14px;
-        }
-
-        .fallback-link a {
-            color: #0066cc;
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <h1>STAT 515 Final Project (Group)</h1>
-    <p>Team members: Preston Moskowitz &amp; Yang Zhang</p>
-</header>
-
-<nav>
-    <a href="index.html">Report</a>
-    <a href="code.html">Code</a>
-</nav>
-
-<div class="frame-container">
-    <iframe src="Final3.html" title="Final Project Report"></iframe>
-</div>
-
-<div class="fallback-link">
-    If the report does not display correctly,
-    <a href="Final3.html" target="_blank">click here to open Final3.html in a new tab</a>.
-</div>
-
-</body>
-</html>
+    .nav-link.active {
+      backgr
